@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>도쿄</title>
+    <link rel="stylesheet" href="css/city.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <a href="main.html#travel"><img id="arrow" src="image/free-icon-arrow-left-6423875.png" alt="왼쪽화살표"></a>
+            <br><br><br><br><br><br><br><br><br>
+            <li><a onclick="showHome();" class="homeHome" href="#">홈</a></li>
+            <li><a onclick="showPlace();" class="homePlace" href="#">주요명소</a></li>
+            <li><a onclick="showFood();" class="homeFood" href="#">음식</a></li>
+            <li><a onclick="showFestival();" class="homeFestival" href="#">축제/행사</a></li>
+        </ul>
+    </nav>
+    <div class="home">
+        <img src="image/도쿄/도쿄배너.jpg" alt="도쿄배너사진">
+        <p id="welcome"></p>
+    </div>
+    <div class="place">
+        <h1 id="placeTitle">< 도쿄 주요명소 ></h1>
+        <br>
+        <div class="placeInfo">
+            <img id="place" src="image/도쿄/도쿄타워.jfif" alt="도쿄타워">
+            <p id="name">도쿄타워</p>
+        </div>
+        <div class="placeInfo">
+            <img id="place" src="image/도쿄/메이지신궁.jpg" alt="메이지신궁">
+            <p id="name">메이지신궁</p>
+        </div>
+        <div class="placeInfo">
+            <img id="place" src="image/도쿄/센소지.jfif" alt="센소지">
+            <p id="name">센소지</p>
+        </div>
+        <div class="placeInfo">
+            <img id="place" src="image/도쿄/스카이트리.jfif" alt="스카이트리">
+            <p id="name">스카이트리</p>
+        </div>
+        <div class="placeInfo">
+            <img id="place" src="image/도쿄/신주쿠교엔.jpg" alt="신주쿠교엔">
+            <p id="name">신주쿠교엔</p>
+        </div>
+        <div class="placeInfo">
+            <img id="place" src="image/도쿄/우에노공원.jpg" alt="우에노공원">
+            <p id="name">우에노 공원</p>
+        </div>
+        <br><br>
+    </div>
+    <div class="food">
+        <h1 id="foodTitle">< 도쿄 음식 ></h1>
+        <br>
+        <div class="foodInfo">
+            <img id="food" src="image/도쿄/돈카츠.jpg" alt="돈카츠">
+            <p id="name">돈카츠</p>
+        </div>
+        <div class="foodInfo">
+            <img id="food" src="image/도쿄/라멘.jpg" alt="라멘">
+            <p id="name">라멘</p>
+        </div>
+        <div class="foodInfo">
+            <img id="food" src="image/도쿄/샤부샤부.jpg" alt="샤부샤부">
+            <p id="name">샤부샤부</p>
+        </div>
+        <div class="foodInfo">
+            <img id="food" src="image/도쿄/소바.jpg" alt="소바">
+            <p id="name">소바</p>
+        </div>
+        <div class="foodInfo">
+            <img id="food" src="image/도쿄/스시.jpg" alt="스시">
+            <p id="name">스시</p>
+        </div>
+        <div class="foodInfo">
+            <img id="food" src="image/도쿄/이자카야.jpg" alt="이자카야">
+            <p id="name">이자카야</p>
+        </div>
+        <br><br>
+    </div>
+    <div class="festival">
+        <h1 id="festivalTitle">< 도쿄 축제/행사 ></h1>
+        <div class="card">
+            <p id="title">우에노 벚꽃 축제</p>
+            <img src="image/도쿄/벚꽃.webp" alt="벚꽃">
+            <p id="content">
+                우에노 온시 공원 내 주오도리(中央通り)는 봄이면 만발하는 벚나무길로 유명하다.
+                축제 기간에는 1,000여 개의 초롱 등대가 설치되어 밤의 운치가 더해진다.
+                골동품 시장 등 다양한 이벤트도 놓치지 말자.
+            </p>
+            <p id="content1">날짜 : 2023년 3월 24-26일<br>장소 : 우에노 온시 공원</p> 
+        </div>
+        <div class="card">
+            <p id="title">간다 마츠리</p>
+            <img src="image/도쿄/간다미츠리.webp" alt="간다미츠리">
+            <p id="content">
+                일본 3대 축제의 하나로 꼽히는 성대한 축제.
+                에도 시대 도쿠가와 이에야스가 전투에서 승리한 것을 기념으로 시작한 축제로 온갖 장식을 한 100여 개의 가마 행렬이 간다 묘진에서 출발하여 니혼바시, 오테-마루노우치, 아키하바라 지역을 행진하며 흥을 돋운다.
+            </p>
+            <p id="content1">날짜 : 매년 5월 중순 주말<br>장소 : 간다 묘진</p> 
+        </div>
+        <br><br>
+    </div>
+<script src="javascript/city.js"></script>
+<script>welcome('WELCOME TO TOKYO!');</script>
+</body>
+</html>

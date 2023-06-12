@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="css/signUp.css">
+</head>
+<body>
+    <a href="main.html#header"><img id="arrow" src="image/free-icon-arrow-left-6423875.png" alt="왼쪽화살표"></a>
+    <div class="main">
+        <h1>🙈회원가입🙉</h1>
+        <form action="" name="memberFrm">
+            <table>
+                <thead>
+                    <tr>
+                        <th>아이디<span class="req">*</span></th>
+                        <td><input type="text" name="userId" id="userId"></td>
+                    </tr>
+                    <tr>
+                        <th>비밀번호<span class="req">*</span></th>
+                        <td><input type="password" name="pwd" id="pwd"></td>
+                    </tr>
+                    <tr>
+                        <th>비밀번호 확인</th>
+                        <td><input type="password" name="pwdCheck" id="pwdCheck"></td>
+                    </tr>
+                    <tr>
+                        <th>이름<span class="req">*</span></th>
+                        <td><input type="text" name="userName" id="userName"></td>
+                    </tr>
+                    <tr>
+                        <th>이메일<span class="req">*</span></th>
+                        <td>
+                            <input type="text" name="domainTxt" id="domainTxt">&nbsp;&nbsp;@
+                            <input type="text" name="domainTxt2" id="domainTxt2" autocomplete="off">
+                            <select name="domainList" id="domainList" onchange="changeEmail();">
+                                <option id="direct_input" value="">직접입력</option>
+                                <option value="daum.net">daum.net</option>
+                                <option value="naver.com">naver.com</option>
+                                <option value="nate.com">nate.com</option>
+                                <option value="google.com">google.com</option>
+                                <option value="kaokao.com">kaokao.com</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>생일</th>
+                        <td>
+                            <select name="domainList" id="domainList2" autocomplete="off">
+                                <option value="1988">1988</option>
+                                <option value="1989">1989</option>
+                                <option value="1990">1990</option>
+                                <option value="1991">1991</option>
+                                <option value="1992">1992</option>
+                                <option value="1993">1993</option>
+                                <option value="1994">1994</option>
+                                <option value="1995">1995</option>
+                                <option value="1996">1996</option>
+                                <option value="1997">1997</option>
+                                <option value="1998">1998</option>
+                                <option value="1999">1999</option>
+                                <option value="2000">2000</option>
+                            </select>&nbsp;&nbsp;<span id="d">년</span>
+                            <select name="domainList" id="domainList3" autocomplete="off">
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                                <option value="05">06</option>
+                                <option value="05">07</option>
+                                <option value="05">08</option>
+                                <option value="05">09</option>
+                                <option value="05">10</option>
+                                <option value="05">11</option>
+                                <option value="05">12</option>
+                            </select>&nbsp;&nbsp;<span id="d">월</span>
+                            <select name="domainList" id="domainList4" autocomplete="off">
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                                <option value="05">06</option>
+                                <option value="05">07</option>
+                                <option value="05">08</option>
+                                <option value="05">09</option>
+                                <option value="05">10</option>
+                                <option value="01">11</option>
+                                <option value="02">12</option>
+                                <option value="03">13</option>
+                                <option value="04">14</option>
+                                <option value="05">15</option>
+                                <option value="05">16</option>
+                                <option value="05">17</option>
+                                <option value="05">18</option>
+                                <option value="05">19</option>
+                                <option value="05">20</option>
+                                <option value="01">21</option>
+                                <option value="02">22</option>
+                                <option value="03">23</option>
+                                <option value="04">24</option>
+                                <option value="05">25</option>
+                                <option value="05">26</option>
+                                <option value="05">27</option>
+                                <option value="05">28</option>
+                                <option value="05">29</option>
+                                <option value="05">30</option>
+                                <option value="05">31</option>
+                            </select>&nbsp;&nbsp;<span id="d">일</span>
+                        </td>
+                    </tr>
+                </thead>
+            </table>
+            <button type="submit" id="finish">완료</button>
+        </form>
+    </div>
+    <script src="javascript/js/jquery-3.7.0.js"></script>
+    <script src="javascript/signUp.js"></script>
+</body>
+</html>

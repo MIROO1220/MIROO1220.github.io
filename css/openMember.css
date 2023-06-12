@@ -1,0 +1,77 @@
+/* 규격 */
+html {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+/* 폰트 */
+@font-face {
+    font-family: 'KyoboHandwriting2021sjy';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KyoboHandwriting2021sjy.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 메인 */
+.main {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    width: 800px;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+/* 회원정보 테이블 */
+table {
+    margin-left: 100px;
+    text-align: center;
+}
+#table {
+    border-radius: 10px;
+    margin-left: -20px;
+}
+th {
+    padding: 5px;
+    font-family: 'KyoboHandwriting2021sjy';
+    font-size: 30px;
+}
+
+td {
+    padding: 7px;
+    font-family: 'KyoboHandwriting2021sjy';
+    font-size: 25px;
+}
+
+/* 조회버튼 */
+#btn1 {
+    margin-left: 792px;
+    font-family: 'KyoboHandwriting2021sjy';
+    padding: 15px;
+    font-size: 30px;
+    margin-top: 300px;
+    border-radius: 20px;
+}
+
+/* 삭제버튼 */
+/* #btn2 {
+    font-family: 'KyoboHandwriting2021sjy';
+    margin-left: 20px;
+    padding: 15px;
+    font-size: 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+} */
+
+/* 뒤로가기 */
+#arrow {
+    background-color: #727c86;
+    height: 46px;
+    width: 46px;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+    margin-top: -33px;
+    padding: 10px;
+  }

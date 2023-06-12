@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>미루의 개인 홈페이지</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+<body>
+    <div id="header" class="header">
+        <p id="logo">miroo's home</p>
+        <div class="login">
+            <a id="signUp" href="signUp.html">회원가입</a>
+            <br>
+            <a id="openMember" href="openMember.html">회원정보열람</a>
+        </div>
+    </div>
+    <a href="#header"><div class="fixed">
+        <img src="image/위로.png" alt="위로가기">
+    </div></a> 
+    <nav class="nav">
+        <ul>
+            <a href="#intro"><li>자기소개</li></a>
+            <a href="#loadMap"><li>로드맵</li></a>
+            <a href="#travelh"><li>여행</li></a>
+        </ul>
+    </nav>
+    <div class="main">
+        <div class="mainPicture">
+            <h1 class="first_line"><br><br>MI ROO<br>WEB PAGE</h1>
+        </div>
+        <div class="text">
+            <h1>어서오세요</h1>
+            <p>
+                안녕하세요, 미루의 웹페이지에 오신걸 환영합니다. <br>
+                "<mark>도전</mark>은 실패하고 또 실패해도 다시 일어서며 나아가는 것입니다."<br>
+                도전을 계속하여 저를 더 성장해 나가며 실패해도 다시 일어서는 <mark>끈기</mark>가 있는 개발자가 되겠습니다.
+            </p>
+        </div>
+    </div>
+    <section class="section">
+        <div class="aboutMe">
+            <h1>자기소개</h1>
+            <div class="miroo">
+                <div class="me">
+                    <img id="miroo" src="image/7374537befb86bdde9a9d57f576b76cb.jpg" alt="한미루">
+                    <img id="miroo_hover" src="image/나.jpg" alt="한미루">
+                </div>
+                <div class="sns">
+                    <div class="mail">
+                        <img src="image/free-icon-envelope-2089181.png" alt="mail icon">
+                        <p>mir0_0@icloud.com</p>
+                    </div>
+                    <div class="blog">
+                        <img src="image/free-icon-blogspot-2564634.png" alt="blog icon">
+                        <a href="https://m.blog.naver.com/me_roovely">https://m.blog.naver.com</a>
+                    </div>
+                    <span id="blink">come in!</span>
+                </div>
+            </div>
+            <div id="intro" class="intro">
+                <p>
+                    나는 한미루 <br>
+                    혈액형 : O형<br>
+                    나이 : 27<br>
+                    생일 : 1997 12 20<br><br><br>
+                    MOTO_ <br>행복하게 살자😊<br>
+                </p>
+            </div>
+        </div>
+        <div id="loadMap" class="loadMap">
+            <h1 class="loadMap">로드맵</h1>
+            <div id="life1">
+                <p><h1>자 이제 시작이야!</h1>
+                    실무 나가서 어떻게든 따라가 
+                    성장하는 개발자되기 
+                </p>
+            </div>
+            <div class="line" style="transform: translate(422px, 77px);"></div>
+            <div id="life2">
+                <p><h1>기본이 중요하다!</h1>
+                    학원 다니는 동안 꾸준한 복습,
+                    정보처리기사 자격증 따기
+                </p>
+            </div>
+            <div class="line" style="transform: translate(261px, -38px);"></div>
+            <hr>
+            <div id="life3">
+                <p><h1>여전히 발전하고 있는 개발자!</h1>
+                    익숙함에 안주하지 않고, 끊임없이 발전하고 나아가는 개발자되기
+                </p>
+            </div>
+            <div class="line" style="transform: translate(665px, -176px);"></div>
+            <div id="life4">
+                <p><h1>롱런하는 개발자^0^</h1></p>
+            </div>
+            <div class="line" style="transform: translate(792px, -405px);"></div>
+        </div>
+        <h1 id="travelh">여행가자!</h1>
+        <div id="travel" class="travel">
+            <img src="image/free-icon-arrow-left-6423875.png" alt="왼쪽화살표" style="width: 30px; height: 30px;" id="left" onclick="moveLeft();">
+            <div id="a" class="slide">
+                <a href="paris.html">
+                    <div class="container">
+                        <img src="image/파리.jfif" alt="파리">
+                        <div class="title">파리</div>
+                        <div class="look">둘러보기</div>
+                    </div>
+                </a>
+                <a href="barcelona.html">
+                    <div class="container">
+                        <img src="image/바르셀로나.png" alt="바르셀로나">
+                        <div class="title">바르셀로나</div>
+                        <div class="look">둘러보기</div>
+                    </div>
+                </a>
+                <a href="danang.html">
+                    <div class="container">
+                        <img src="image/다낭.jfif" alt="다낭">
+                        <div class="title">다낭</div>
+                        <div class="look">둘러보기</div>
+                    </div>
+                </a>
+                <a href="tokyo.html">
+                    <div class="container">
+                        <img src="image/도쿄.jpg" alt="도쿄">
+                        <div class="title">도쿄</div>
+                        <div class="look">둘러보기</div>
+                    </div>
+                </a>
+                <a href="london.html">
+                    <div class="container">
+                        <img src="image/런던.jpg" alt="런던">
+                        <div class="title">런던</div>
+                        <div class="look">둘러보기</div>
+                    </div>
+                </a>
+                <a href="bangkok.html">
+                    <div class="container">
+                        <img src="image/방콕.jpg" alt="방콕">
+                        <div class="titleb">방콕</div>
+                        <div class="look">둘러보기</div>
+                    </div>
+                </a>
+            </div>
+            <img src="image/free-icon-arrow-right-6423875.png" alt="왼쪽 화살표" style="width: 30px; height: 30px;" id="right" onclick="moveRight();">
+        </div>
+    </section>
+    <div class="footer">
+        <nav>
+            <a href="https://github.com/MIROO1220">Github</a> |
+            <a href="https://www.notion.so/">notion</a>
+        </nav>
+        <p>
+            <span>저자 : 한미루</span>
+            <span>이메일 : mir0_0@icloud.com</span>
+            <span>Copyright 2023. 한미루. All Rights Reserved</span>
+        </p>
+    </div>
+    <script src="javascript/main.js"></script>
+</body>
+</html>

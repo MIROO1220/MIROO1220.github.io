@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>방콕</title>
+    <link rel="stylesheet" href="css/city.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <a href="main.html#travel"><img id="arrow" src="image/free-icon-arrow-left-6423875.png" alt="왼쪽화살표"></a>
+            <br><br><br><br><br><br><br><br><br>
+            <li><a onclick="showHome();" class="homeHome" href="#">홈</a></li>
+            <li><a onclick="showPlace();" class="homePlace" href="#">주요명소</a></li>
+            <li><a onclick="showFood();" class="homeFood" href="#">음식</a></li>
+            <li><a onclick="showFestival();" class="homeFestival" href="#">축제/행사</a></li>
+        </ul>
+    </nav>
+    <div class="home">
+        <img src="image/방콕/방콕배너.jfif" alt="방콕배너사진">
+        <p id="welcome"></p>
+    </div>
+    <div class="place">
+        <h1 id="placeTitle">< 방콕 주요명소 ></h1>
+        <br>
+        <div class="placeInfo">
+            <img id="place" src="image/방콕/방콕왕궁.jfif" alt="방콕왕궁">
+            <p id="name">방콕 왕궁</p>
+        </div>
+        <div class="placeInfo">
+            <img id="place" src="image/방콕/시암파라곤.jpg" alt="시암파라곤">
+            <p id="name">시암 파라곤</p>
+        </div>
+        <div class="placeInfo">
+            <img id="place" src="image/방콕/아룬사원.jfif" alt="아룬사원">
+            <p id="name">아룬사원</p>
+        </div>
+        <div class="placeInfo">
+            <img id="place" src="image/방콕/왓포.jfif" alt="왓포">
+            <p id="name">왓 포</p>
+        </div>
+        <div class="placeInfo">
+            <img id="place" src="image/방콕/왓프라깨우.jpg" alt="왓프라깨우">
+            <p id="name">왓 프라깨우</p>
+        </div>
+        <div class="placeInfo">
+            <img id="place" src="image/방콕/황금불사원.jpg" alt="황금불사원">
+            <p id="name">황금불 사원</p>
+        </div>
+        <br><br>
+    </div>
+    <div class="food">
+        <h1 id="foodTitle">< 방콕 음식 ></h1>
+        <br>
+        <div class="foodInfo">
+            <img id="food" src="image/방콕/깡댕.webp" alt="깡댕">
+            <p id="name">깡댕</p>
+        </div>
+        <div class="foodInfo">
+            <img id="food" src="image/방콕/똠양꿍.webp" alt="똠양꿍">
+            <p id="name">똠양꿍</p>
+        </div>
+        <div class="foodInfo">
+            <img id="food" src="image/방콕/똠카까이.webp" alt="똠카까이">
+            <p id="name">똠카까이</p>
+        </div>
+        <div class="foodInfo">
+            <img id="food" src="image/방콕/솜땀.webp" alt="솜땀">
+            <p id="name">솜땀</p>
+        </div>
+        <div class="foodInfo">
+            <img id="food" src="image/방콕/팟타이.webp" alt="팟타이">
+            <p id="name">팟타이</p>
+        </div>
+        <div class="foodInfo">
+            <img id="food" src="image/방콕/깽케우완카이.webp" alt="깽케우완카이">
+            <p id="name">깽케우완카이</p>
+        </div>
+        <br><br>
+    </div>
+    <div class="festival">
+        <h1 id="festivalTitle">< 방콕 축제/행사 ></h1>
+        <div class="card">
+            <p id="title">만불절 (마카부차) - 전국 사원에서 모든 제자가 모이는 축제</p>
+            <img src="image/방콕/만불절.webp" alt="만불절">
+            <p id="content">
+                태국의 가장 큰 불교 행사로 스님들이 촛불과 꽃, 향을 들고 사원 주위를 도는 행렬이 장관을 이룬다. 사람들도 절에 찾아가 꽃이나 향을 바친다. 전국 곳곳에서는 물고기나 새를 방생하는 이벤트도 벌어진다. 이날은 왕궁 본당 입장이 제한되고, 주류 판매도 금지된다.
+            </p>
+            <p id="content1">날짜 : 매년 음력 1월 15일 (2023년 2월 5일)<br>장소 : 왓 랏 프라 사원, 왓 사켓 및 태국 전역의 불교 사원</p> 
+        </div>
+        <div class="card">
+            <p id="title">송크란 축제</p>
+            <img src="image/방콕/송크란.webp" alt="송크란">
+            <p id="content">
+                태국식 새해맞이. 서로에게 물을 뿌리며 복을 기원하는 축제로 태국 최대 축제다. 세계 각국에서 이 축제를 즐기기 위해 수많은 젊은 여행자들이 모여든다. 35-40도의 폭염 속에서 물바가지를 쏟아붓는 짜릿한 재미.
+            </p>
+            <p id="content1">날짜 : 매년 4월 13-15일<br>장소 : 카오산 로드, 싸남 루앙 및 태국 전역</p> 
+        </div>
+        <br><br>
+    </div>
+<script src="javascript/city.js"></script>
+<script>welcome('WELCOME TO BONGKOK!');</script>
+</body>
+</html>

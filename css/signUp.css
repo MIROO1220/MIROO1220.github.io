@@ -1,0 +1,98 @@
+/* 1024px 규격 */
+html {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+/* 폰트 */
+@font-face {
+    font-family: 'KyoboHandwriting2021sjy';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KyoboHandwriting2021sjy.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'KyoboHandwriting2021sjy';
+}
+
+/* 메인 */
+.main {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+h1 {
+    text-align: center;
+}
+th {
+    font-size: 25px;
+    padding: 10px;
+}
+
+/* input 박스 크기 조절*/
+input {
+    width: 170px;
+    height: 30px;
+    margin-left: 5px;
+    padding: 5px 0 5px 10px;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+
+/* select 박스 크기 조절*/
+select {
+    width: 170px;
+    height: 40px;
+    margin-left: 5px;
+    padding: 5px 0 5px 10px;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+/* select2 박스 크기 조절*/
+#domainList2 {
+    width: 100px;
+    height: 40px;
+}
+
+/* 완료버튼 크기 조절*/
+#finish {
+    font-family: 'KyoboHandwriting2021sjy';
+    margin-left: 366px;
+    padding: 15px;
+    font-size: 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+/* 버튼 안 글자 크기 조절 */
+#duplicate {
+    font-family: 'KyoboHandwriting2021sjy';
+    font-size: 20px;
+    margin-left: 15px;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+/* 별 (req)*/
+.req {
+    color: rgb(219, 49, 49);
+}
+
+/* 뒤로가기 */
+#arrow {
+    background-color: #727c86;
+    height: 46px;
+    width: 46px;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+    margin-top: -33px;
+    padding: 10px;
+  }

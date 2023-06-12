@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>다낭</title>
+    <link rel="stylesheet" href="css/city.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <a href="main.html#travel"><img id="arrow" src="image/free-icon-arrow-left-6423875.png" alt="왼쪽화살표"></a>
+            <br><br><br><br><br><br><br><br><br>
+            <li><a onclick="showHome();" class="homeHome" href="#">홈</a></li>
+            <li><a onclick="showPlace();" class="homePlace" href="#">주요명소</a></li>
+            <li><a onclick="showFood();" class="homeFood" href="#">음식</a></li>
+            <li><a onclick="showFestival();" class="homeFestival" href="#">축제/행사</a></li>
+        </ul>
+    </nav>
+    <div class="home">
+        <img src="image/다낭/다낭배너.jpg" alt="다낭배너사진">
+        <p id="welcome"></p>
+    </div>
+    <div class="place">
+        <h1 id="placeTitle">< 다낭 주요명소 ></h1>
+        <br>
+        <div class="placeInfo">
+            <img id="place" src="image/다낭/banahills.jfif" alt="banahills">
+            <p id="name">bana hills</p>
+        </div>
+        <div class="placeInfo">
+            <img id="place" src="image/다낭/mykhebeach.jpg" alt="mykhebeach">
+            <p id="name">my khe beach</p>
+        </div>
+        <div class="placeInfo">
+            <img id="place" src="image/다낭/선짜산.jpg" alt="선짜산">
+            <p id="name">선짜산</p>
+        </div>
+        <div class="placeInfo">
+            <img id="place" src="image/다낭/선짜야시장.jpg" alt="선짜야시장">
+            <p id="name">선짜 야시장</p>
+        </div>
+        <div class="placeInfo">
+            <img id="place" src="image/다낭/썬월드아시아파크.jpg" alt="썬월드아시아파크">
+            <p id="name">썬월드 아시아파크</p>
+        </div>
+        <div class="placeInfo">
+            <img id="place" src="image/다낭/바나힐 썬월드.jpg" alt="바나힐 썬월드">
+            <p id="name">바나힐 썬월드</p>
+        </div>
+        <br><br>
+    </div>
+    <div class="food">
+        <h1 id="foodTitle">< 다낭 음식 ></h1>
+        <br>
+        <div class="foodInfo">
+            <img id="food" src="image/다낭/궁중요리.jpg" alt="궁중요리">
+            <p id="name">궁중요리</p>
+        </div>
+        <div class="foodInfo">
+            <img id="food" src="image/다낭/까오러우.jpg" alt="까오러우">
+            <p id="name">까오러우</p>
+        </div>
+        <div class="foodInfo">
+            <img id="food" src="image/다낭/미꽝.jpg" alt="미꽝">
+            <p id="name">미꽝</p>
+        </div>
+        <div class="foodInfo">
+            <img id="food" src="image/다낭/반베오.jpg" alt="반베오">
+            <p id="name">반베오</p>
+        </div>
+        <div class="foodInfo">
+            <img id="food" src="image/다낭/반코아이.jpg" alt="반코아이">
+            <p id="name">반코아이</p>
+        </div>
+        <div class="foodInfo">
+            <img id="food" src="image/다낭/분보후에.jpg" alt="분보후에">
+            <p id="name">분보후에</p>
+        </div>
+        <br><br>
+    </div>
+    <div class="festival">
+        <h1 id="festivalTitle">< 다낭 축제/행사 ></h1>
+        <div class="card">
+            <p id="title">등불축제</p>
+            <img src="image/다낭/등불.webp" alt="등불">
+            <p id="content">
+                전 지역에서 소등 후 등불만으로 거리를 밝힌다.
+                거리 전체가 초롱의 불빛으로 색색의 아름다움을 연출한다.
+                대나무와 비단을 엮어 만든 전통 등이 밝히는 은은한 불빛이 물들이면 금세 축제에 빠져든다.
+            </p>
+            <p id="content1">날짜 : 매달 음력 14일<br>장소 : 구시가지</p> 
+        </div>
+        <div class="card">
+            <p id="title">다낭 세계 불꽃 축제</p>
+            <img src="image/다낭/불꽃.webp" alt="불꽃">
+            <p id="content">
+                다낭 한 강에서 매년 개최하는 불꽃 축제. 세계 여러 나라가 참여하는 대규모의 불꽃놀이가 두 달에 걸쳐 진행된다. 개막식, 예선, 준결승을 거쳐 마지막의 그랜드 피날레로 진행된다.
+                불꽃놀이뿐만 아니라 이 기간에는 댄스 및 공연 등 문화 행사도 즐길 수 있다.
+            </p>
+            <p id="content1">날짜 : 2023년 6월 2일 - 7월 8일<br>장소 : 다낭 한 강 일대</p> 
+        </div>
+        <br><br>
+    </div>
+<script src="javascript/city.js"></script>
+<script>welcome('WELCOME TO DANANG!');</script>
+</body>
+</html>
